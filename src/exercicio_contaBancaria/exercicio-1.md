@@ -19,7 +19,6 @@ Siga as seguintes regras para implementar
 
 ## Diagrama UML 
 ````uml
-classDiagram
 class ContaBancaria {
 - int numeroConta
 - String titular
@@ -36,7 +35,6 @@ class ContaBancaria {
         + boolean pagarBoleto(double valor)
         + boolean isUsandoChequeEspecial()
         - void definirLimiteInicial(double depositoInicial)
-        - void aplicarTaxaSeNecessario()
     }
 ````
 
