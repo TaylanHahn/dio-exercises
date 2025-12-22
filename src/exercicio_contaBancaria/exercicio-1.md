@@ -18,7 +18,7 @@ Siga as seguintes regras para implementar
 --------
 
 ## Diagrama UML 
-
+````uml
 classDiagram
 class ContaBancaria {
 - int numeroConta
@@ -38,6 +38,7 @@ class ContaBancaria {
         - void definirLimiteInicial(double depositoInicial)
         - void aplicarTaxaSeNecessario()
     }
+````
 
 # Documentação da Classe ContaBancaria
 
