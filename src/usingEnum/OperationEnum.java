@@ -1,4 +1,4 @@
-package useEnum;
+package usingEnum;
 
 import java.util.function.BiFunction;
 
