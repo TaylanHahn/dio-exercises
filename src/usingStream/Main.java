@@ -8,6 +8,8 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
+
+        // EXEMPLO FUNCIONARIO
         List<Funcionario> funcionarios = Arrays.asList(
                 new Funcionario("Ana", "TI", 5000, 28),
                 new Funcionario("Bruno", "Financeiro", 7000, 35),
@@ -56,5 +58,10 @@ public class Main {
         agrupados.forEach((d, lista) -> {
             System.out.println(d + " -> " + lista);
         });
+
+        // EXEMPLO USER
+
+
+
     }
 }
