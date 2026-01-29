@@ -1,4 +1,4 @@
-package stream_api.soduko.util;
+package stream_api.sudoku.util;
 
 public final class BoardTemplate {
 

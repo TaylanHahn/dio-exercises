@@ -1,21 +1,17 @@
-package stream_api.soduko.model;
+package stream_api.sudoku.model;
 
 public enum GameStatusEnum {
     NON_STARTED("não iniciado"),
     INCOMPLETE("incompleto"),
     COMPLETE("completo");
 
-    private String label;
+    private final String label;
 
-    GameStatusEnum(String s) {
-    }
-
-    void GameStatusEnum(final String label){
+    GameStatusEnum(final String label){
         this.label = label;
     }
 
     public String getLabel() {
         return label;
     }
-
 }
