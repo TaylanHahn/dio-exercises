@@ -13,6 +13,7 @@ public class PredicateEx {
         // Criar uma lista de palavras
         List<String> palavras = Arrays.asList("java", "kotlin", "python", "javascript", "c", "go", "ruby");
 
+        /* ESTE BLOCO PODE FICAR MAIS ENXUTO...
         // Criar um Predicate que verifica se a palavra tem mais de 5 caracteres
         Predicate<String> maisDeCincoCaracteres = palavra -> palavra.length() > 5;
 
@@ -20,6 +21,12 @@ public class PredicateEx {
         // imprimir cada palavra que passou no filtro
         palavras.stream()
                 .filter(maisDeCincoCaracteres)
+                .forEach(System.out::println);
+         */
+
+        // FICANDO ASSIM:
+        palavras.stream()
+                .filter(p -> p.length() > 5)
                 .forEach(System.out::println);
     }
 }

@@ -13,9 +13,6 @@ public class BinaryOperatorEx {
         // Criar uma lista de números inteiros
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
 
-        // Usar o BinaryOperator com expressão lambda para somar dois números inteiros
-        java.util.function.BinaryOperator<Integer> somar = Integer::sum;
-
         // Usar o BinaryOperator para somar todos os números no Stream
         int resultado = numeros.stream()
                 .reduce(0, Integer::sum);
