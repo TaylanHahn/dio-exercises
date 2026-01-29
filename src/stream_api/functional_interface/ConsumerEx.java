@@ -21,9 +21,13 @@ public class ConsumerEx {
             }
         };
 
-        // Usar o Consumer para imprimir números pares no Stream
-        numeros.stream()
+        /* Usar o Consumer para imprimir números pares no Stream
+        Nota: quando coloco numeros.stream(), estou transformando minha List e uma Stream.
+        Isso permitirá o Consumer a percorrer a stream e realizar a impressão.
+        */
+        numeros.stream() 
                 .filter(n -> n % 2 == 0)
                 .forEach(System.out::println);
+        
     }
 }
