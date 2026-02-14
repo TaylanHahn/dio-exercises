@@ -1,0 +1,17 @@
+package padroes_de_projeto.singleton;
+
+// Singleton "Preguiçoso"
+public class SingletonLazy {
+    private static SingletonLazy instance;
+
+    private SingletonLazy(){
+        super();
+    }
+
+    public static SingletonLazy getInstance(){
+        if(instance == null){
+            instance = new SingletonLazy();
+        }
+        return instance;
+    }
+}
