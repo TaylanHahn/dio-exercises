@@ -27,7 +27,7 @@ Etapa 3:
 
 
 
-## ConclusÃ£o
+## Conclusão
 A implementação de serviços AWS na empresa Abstergo Industries tem como esperado a redução imediata de custos com infraestrutura física, o aumento da alta disponibilidade dos sistemas e a garantia da segurança no tráfego de dados sensíveis, o que aumentará a eficiência e a produtividade da rede de farmácias. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias nativas em nuvem que possam melhorar ainda mais os processos da empresa.
 
 ## Anexos
